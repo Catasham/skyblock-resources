@@ -220,7 +220,6 @@
       },
       "minecraft:navigation.walk": {
         "is_amphibious": true,
-        "avoid_sun": true,
         "avoid_water": true
       },
       "minecraft:movement.basic": {

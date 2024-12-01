@@ -5,9 +5,11 @@
 			"initial_state": "idle",
 			"states": {
 				"idle": {
+					"animations": ["idle"],
 					"transitions": [
 						{
-							"moving": "variable.moving"
+							"moving": "variable.moving",
+							"attacking": "query.can_damage_nearby_mobs"
 						}
 					]
 				},
@@ -15,7 +17,16 @@
 					"animations": ["walk"],
 					"transitions": [
 						{
-							"idle": "!variable.moving"
+							"idle": "!variable.moving",
+							"attacking": "query.can_damage_nearby_mobs"
+						}
+					]
+				},
+				"attacking": {
+					"animations": ["attack"],
+					"transitions": [
+						{
+							"idle": "!query.can_damage_nearby_mobs"
 						}
 					]
 				}

@@ -17,13 +17,12 @@
 				"texture": "redstone_golem"
 			},
 			"animations": {
-				"idle": "controller.animation.redstone_golem"
+				"idle": "animation.redstone_golem.idle",
+				"walk": "animation.redstone_golem.walk"
 			},
-			"scripts": {
-				"animate": [
-					"idle"
-				]
-			}
+			"animation_controllers": [
+				"controller.animation.redstone_golem"
+			]
 		}
 	}
 }

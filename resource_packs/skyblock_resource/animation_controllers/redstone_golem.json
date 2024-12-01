@@ -12,7 +12,7 @@
 					]
 				},
 				"moving": {
-					"animations": ["flying"],
+					"animations": ["walk"],
 					"transitions": [
 						{
 							"idle": "!variable.moving"

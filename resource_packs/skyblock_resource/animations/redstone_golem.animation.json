@@ -25,7 +25,7 @@
 				}
 			}
 		},
-		"moving": {
+		"walk": {
 			"loop": true,
 			"animation_length": 0.6667,
 			"bones": {

@@ -20,8 +20,8 @@
 				"family": ["endermite", "arthropod", "monster", "mob"]
 			},
 			"minecraft:collision_box": {
-				"width": 2,
-				"height": 3
+				"width": 1,
+				"height": 2
 			},
 			"minecraft:movement": {
 				"value": 0.25

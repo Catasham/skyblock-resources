@@ -1,0 +1,20 @@
+{  
+  "format_version": "1.20.20",  
+  "minecraft:item": {  
+    "description": {  
+      "identifier": "skyblock:compressed_emerald",
+      "category": "items"
+      },
+
+      "components": {  
+
+        "minecraft:icon": {
+          "texture": "compressed_emerald"
+        }, 
+        "minecraft:display_name": {  
+          "value": "Compressed Emerald"  
+        }
+      }
+    }
+ }
+ 

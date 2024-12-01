@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:raw_iron",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "skyblock:crystal_iron",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  

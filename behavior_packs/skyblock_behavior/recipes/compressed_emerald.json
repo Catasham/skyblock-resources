@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "skyblock:compressed_emerald"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:emerald_block",
+        "data": 4
+      }
+    },
+    "result": {
+      "item": "skyblock:compressed_emerald",
+      "data": 4
+    }
+  }
+  
+}

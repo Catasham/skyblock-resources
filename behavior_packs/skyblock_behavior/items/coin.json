@@ -1,0 +1,20 @@
+{  
+  "format_version": "1.20.20",  
+  "minecraft:item": {  
+    "description": {  
+      "identifier": "skyblock:coin",
+      "category": "items"
+      },
+
+      "components": {  
+
+        "minecraft:icon": {
+          "texture": "coin"
+        }, 
+        "minecraft:display_name": {  
+          "value": "Coin"  
+        }
+      }
+    }
+ }
+ 

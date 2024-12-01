@@ -1,0 +1,20 @@
+{  
+  "format_version": "1.20.20",  
+  "minecraft:item": {  
+    "description": {  
+      "identifier": "skyblock:crystal_gold",
+      "category": "items"
+      },
+
+      "components": {  
+
+        "minecraft:icon": {
+          "texture": "crystal_gold"
+        }, 
+        "minecraft:display_name": {  
+          "value": "Crystalized Gold"  
+        }
+      }
+    }
+ }
+ 

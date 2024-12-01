@@ -1,0 +1,20 @@
+{  
+  "format_version": "1.20.20",  
+  "minecraft:item": {  
+    "description": {  
+      "identifier": "skyblock:crystal_iron",
+      "category": "items"
+      },
+
+      "components": {  
+
+        "minecraft:icon": {
+          "texture": "crystal_iron"
+        }, 
+        "minecraft:display_name": {  
+          "value": "Crystalized Iron"  
+        }
+      }
+    }
+ }
+ 

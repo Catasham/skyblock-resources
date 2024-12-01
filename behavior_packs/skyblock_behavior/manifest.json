@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "skyblock behavior",
+      "name": "skyblock behavior",
+      "uuid":"f515eb5e-670d-11ee-8c99-0242ac120002",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+    },
+    "modules":
+      [
+        {
+          "description": "skyblock behavior",
+            "type": "data",
+            "uuid": "60a81b0c-0f70-49d9-a4ed-ecbd555b7fa4",
+            "version": [1, 0, 0]
+        }
+      ],
+    "dependencies": [
+      {
+       "uuid":"64652c4b-1e9c-420c-88ab-27e20dad841a",
+        "version":[1,0,0]
+      }
+   ]
+  }

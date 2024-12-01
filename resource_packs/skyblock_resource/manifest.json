@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "skyblock datapack-resource",
+      "name": "skyblock textures",
+      "uuid":"64652c4b-1e9c-420c-88ab-27e20dad841a",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+     },
+    "modules": [
+      {
+        "description": "skyblock textures",
+        "type": "resources",
+        "uuid": "94c52a4b-1e9c-470c-88ab-27220dad840a",
+        "version": [1, 0, 0]
+      }
+    ]
+   }

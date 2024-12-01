@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.redstone_golem": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [
+						{
+							"moving": "variable.moving"
+						}
+					]
+				},
+				"moving": {
+					"animations": ["flying"],
+					"transitions": [
+						{
+							"idle": "!variable.moving"
+						}
+					]
+				}
+			}
+		}
+	}
+}

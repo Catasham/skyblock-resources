@@ -15,6 +15,14 @@
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
 				"texture": "redstone_golem"
+			},
+			"animations": {
+				"idle": "controller.animation.redstone_golem"
+			},
+			"scripts": {
+				"animate": [
+					"idle"
+				]
 			}
 		}
 	}

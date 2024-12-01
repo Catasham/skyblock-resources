@@ -1,39 +1,7 @@
 {
-	"resource_pack_name": "vanilla",
-	"texture_name": "atlas.items",
 	"texture_data": {
-		"coin": {
-			"textures": "textures/items/coin"
-		},
-		"emerald_sword": {
-			"textures": "textures/items/emerald_sword"
-		},
-		"crystal_iron": {
-			"textures": "textures/items/crystal_iron"
-		},
-		"crystal_gold": {
-			"textures": "textures/items/crystal_gold"
-		},
-		"obsidian_hammer": {
-			"textures": "textures/items/obsidian_hammer"
-		},
-		"ruby_axe": {
-			"textures": "textures/items/ruby_axe"
-		},
-		"compressed_emerald": {
-			"textures": "textures/items/compressed_emerald"
-		},
-		"obsidian_helmet": {
-			"textures": "textures/items/obsidian_helmet"
-		},
-		"obsidian_chestplate": {
-			"textures": "textures/items/obsidian_chestplate"
-		},
-		"obsidian_leggings": {
-			"textures": "textures/items/obsidian_leggings"
-		},
-		"obsidian_boots": {
-			"textures": "textures/items/obsidian_boots"
+		"r_spawn_egg": {
+			"textures": ["textures/items/r_spawn_egg"]
 		}
 	}
 }

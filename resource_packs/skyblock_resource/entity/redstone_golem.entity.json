@@ -23,6 +23,13 @@
 				"death": "animation.redstone_golem.death",
 				"funny": "animation.redstone_golem.funny"
 			},
+
+			"scripts":{
+				"animate": [
+					{"idle":"query.ground_speed < 0.1"},
+					{"walk":"query.ground_speed > 0.1"}
+				]
+			}
 			"animation_controllers": [
 				"controller.animation.redstone_golem"
 			]

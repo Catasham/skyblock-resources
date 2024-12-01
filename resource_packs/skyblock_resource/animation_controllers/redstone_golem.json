@@ -2,22 +2,22 @@
 	"format_version": "1.10.0",
 	"animation_controllers": {
 		"controller.animation.redstone_golem": {
-			"initial_state": "moving",
+			"initial_state": "idle",
 			"states": {
-				/*"idle": {
+				"idle": {
 					"transitions": [
 						{
 							"moving": "variable.moving"
 						}
 					]
-				},*/
+				},
 				"moving": {
-					"animations": ["walk"]//,
-					/*"transitions": [
+					"animations": ["walk"],
+					"transitions": [
 						{
 							"idle": "!variable.moving"
 						}
-					]*/
+					]
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"redstone_golem.animation.attack": {
+		"animation.redstone_golem.attack": {
 			"animation_length": 0.7083,
 			"bones": {
 				"left_arm": {
@@ -25,7 +25,7 @@
 				}
 			}
 		},
-		"redstone_golem.animation.walk": {
+		"animation.redstone_golem.walk": {
 			"loop": true,
 			"animation_length": 0.6667,
 			"bones": {
@@ -47,7 +47,7 @@
 				}
 			}
 		},
-		"redstone_golem.animation.death": {
+		"animation.redstone_golem.death": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1.25,
 			"bones": {
@@ -125,7 +125,7 @@
 				}
 			}
 		},
-		"redstone_golem.animation.idle": {
+		"animation.redstone_golem.idle": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -155,7 +155,7 @@
 				}
 			}
 		},
-		"redstone_golem.animation.funny": {
+		"animation.redstone_golem.funny": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 10,
 			"bones": {

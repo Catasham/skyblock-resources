@@ -18,7 +18,10 @@
 			},
 			"animations": {
 				"idle": "animation.redstone_golem.idle",
-				"walk": "animation.redstone_golem.walk"
+				"walk": "animation.redstone_golem.walk",
+				"attack": "animation.redstone_golem.attack",
+				"death": "animation.redstone_golem.death",
+				"funny": "animation.redstone_golem.funny"
 			},
 			"animation_controllers": [
 				"controller.animation.redstone_golem"
